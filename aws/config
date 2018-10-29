@@ -1,0 +1,13 @@
+# Configuration for NGINX instance
+# Replace the strings between <> with the actual parameters
+
+export TF_VAR_awsregion=<AWS REGION>
+export TF_VAR_awscredfile=<PATH TO AWS CREDENTIALS FILE>
+export TF_VAR_awsami=<AWS MACHINE IMAGE (ami)>
+export TF_VAR_awstype=<AWS INSTANCE TYPE>
+export TF_VAR_awssubnetid=<AWS SUBNET ID>
+export TF_VAR_awssecuritygrs='<LIST OF AWS SECURITY GROUPS>'
+export TF_VAR_awsprivkeyfile=<PATH TO PRIVATE SSH KEY FILE>
+export TF_VAR_awskeyname=<AWS SSH KEY NAME>
+export TF_VAR_awsaccesskey=<AWS ACCESS KEY>
+export TF_VAR_awssecretkey=<AWS SECRET KEY>
